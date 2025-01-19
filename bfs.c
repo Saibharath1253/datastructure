@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define max_size 3
-
 int adjmtx[max_size][max_size], bfsqueue[max_size], visited[max_size], s;
 int front = -1, rear = -1, data, v, i, j;
 
